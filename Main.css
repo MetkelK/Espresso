@@ -22,7 +22,6 @@ a:active, a:visited {
   	color: black;
 }
 
-
 main {
   	height: 100vh;
 	display: flex;
@@ -37,7 +36,7 @@ main {
 .contact-info {
 	background-color: #FAFDFF;
   	border-radius: 3px;
-	width: auto;
+	width: 80%;
 	padding: 2rem;
 	letter-spacing: 0.25em;
 	display: flex;
