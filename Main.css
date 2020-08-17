@@ -37,7 +37,7 @@ main {
 	background-color: #FAFDFF;
   	border-radius: 3px;
 	width: 80%;
-	padding: 2rem;
+	padding: 1rem;
 	letter-spacing: 0.25em;
 	display: flex;
 	flex-direction: column;
@@ -46,6 +46,7 @@ main {
 @media screen and (min-width: 610px) {
 	.contact-info {
 		width: auto;
+		padding: 2rem;
 	}
 }
 
@@ -53,11 +54,11 @@ h2 {
 	letter-spacing: 0.5em;
 }
 
-.left, .right {
+.address, .hours {
 	margin: 1rem 0;
 }
 
-.right p:first-child {
+.hours p:first-child {
 	margin-bottom: 0.5rem;
 }
 
