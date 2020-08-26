@@ -53,12 +53,11 @@ main {
 picture {
 	display: flex;
 	justify-content: center;
-
 }
 
 picture img {
 	margin: 0 auto;
-	
+	width: 100%;
 }
 
 .address, .hours {
