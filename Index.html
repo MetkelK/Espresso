@@ -14,10 +14,12 @@
 <body>
 	<main>
 		<div class="contact-info wrapper">
-			<img src="logo.webp" 
-				srcset="logo.webp 584w, logo-small.png 292w, logo.png 584w"
-				sizes="70vw"
-				alt="Oakwood Espresso Logo">
+			<!-- <img src="logo.webp" alt="Oakwood Espresso Logo"> -->
+			<picture>
+				<source srcset="logo-xs.webp 146w, logo-small.webp 292w, logo.webp 584w" type="image/webp">
+				<source srcset="logo-xs.png 146w, logo-small.png 292w, logo.png 584w" type="image/png">
+				<img src="logo.webp" alt="Oakwood Espresso Logo">
+			</picture>
 			<div class="address">
 				<p>342B Oakwood Ave</p>
 				<p>Toronto</p>
