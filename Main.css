@@ -50,9 +50,13 @@ main {
 	}
 }
 
-img {
+picture {
+	display: flex;
+	justify-content: center;
+}
+
+picture img {
 	width: 70%;
-	margin: 0 auto;
 }
 
 .address, .hours {
