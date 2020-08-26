@@ -43,21 +43,40 @@ main {
 	flex-direction: column;
 }
 
-@media screen and (min-width: 610px) {
+picture {
+	width: 70%;
+	margin: 0 auto;
+}
+
+picture img {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
 	.contact-info {
 		width: 60%;
 		padding: 2rem;
 	}
+
+	picture {
+		width: 60%;
+	}
 }
 
-picture {
-	display: flex;
-	justify-content: center;
+@media screen and (min-width: 900px) {
+	.contact-info {
+		width: 40%;
+	}
 }
 
-picture img {
-	margin: 0 auto;
-	width: 100%;
+@media screen and (min-width: 1200px) {
+	.contact-info {
+		width: 30%;
+	}
+
+	picture {
+		width: 50%;	
+	}
 }
 
 .address, .hours {
