@@ -50,8 +50,9 @@ main {
 	}
 }
 
-h2 {
-	letter-spacing: 0.5em;
+img {
+	width: 50%;
+	margin: 0 auto;
 }
 
 .address, .hours {
@@ -78,12 +79,7 @@ nav {
 	background-color: #FAFDFF;
 	display: flex;
 	justify-content: space-between;
-	-ms-align-items: center;
 	align-items: center;
-}
-
-nav img {
-	width: 30px;
 }
 
 .links a {

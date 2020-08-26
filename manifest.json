@@ -1,0 +1,35 @@
+{
+  "short_name": "Oakwood Espresso",
+  "name": "Oakwood Espresso",
+  "icons": [
+   	 {
+      "src": "icons/acorn16.svg",
+      "sizes": "16x16",
+      "type": "image/svg"
+    },
+    {
+      "src": "icons/acorn48.svg",
+      "sizes": "48x48",
+      "type": "image/svg"
+    },
+    {
+      "src": "icons/acorn128.svg",
+      "sizes": "128x128",
+      "type": "image/svg"
+    },
+    {
+      "src": "icons/acorn144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/acorn.svg",
+      "sizes": "512x512",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
