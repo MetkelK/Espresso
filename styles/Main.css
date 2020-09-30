@@ -25,12 +25,30 @@ a:active, a:visited {
 main {
   	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	background-image: url('../assets/41640990_676420589397303_7816018928785686528_n.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
   	background-position: 50% 50%;
+  	position: relative;
+}
+
+.banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #FAFDFF;
+
+}
+
+.banner p {
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0;
+	letter-spacing: 0.25em;
 }
 
 .contact-info {
